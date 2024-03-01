@@ -58,6 +58,17 @@ h1 {
    padding: 3rem 3rem;
 }
 
+.row img, .row h1 {
+   margin-bottom: 38px;
+}
+
+.row p {
+   margin-bottom: 1.25rem;
+}
+
+.row h1 {
+   font-size: 2.5rem;
+}
 .row-1 {
    background: $brightOrange;
 }
