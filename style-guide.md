@@ -28,8 +28,40 @@ Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
 
 ### Font
 
+
 - Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
 - Weights: 400
 
+<!-- <style>
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap')
+</style> -->
+
+<!-- // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.lexend-deca-<uniquifier> {
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} -->
+
+
 - Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
 - Weights: 700
+
+<!-- <style>
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap')
+</style> -->
+
+<!-- 
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.big-shoulders display-<uniquifier> {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+ -->
