@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+@import './_variables';
 
 // BASIC RESET
 
@@ -14,10 +15,14 @@
 html {
    font-size: 100%;
    font-family: sans-serif;
+   background: $veryLightGray;
 }
 
 body {
    font-size: 15px;
+   min-height: 100vh;
+   align-items: center;
+   justify-content: center;
 }
 
 // GENERAL STYLE
@@ -31,9 +36,40 @@ h1 {
 p {
    font-weight: 400;
    font-family: "Lexend Deca";
+   color: $veryLightGray;
 }
 
 h1 {
    font-family: "Big Shoulders Display";
    font-weight: 700;
+   color: $transparentWhite;
+}
+
+// CONTAINER
+
+.wrapper {
+   width: 90%;
+   margin: 5rem auto;
+   border-radius: 8px;
+   overflow: hidden;
+}
+
+.row {
+   padding: 3rem 3rem;
+}
+
+.row-1 {
+   background: $brightOrange;
+}
+
+.row-1 button {
+   color: $brightOrange;
+}
+
+.row-2 {
+   background: $darkCyan;
+}
+
+.row-3 {
+   background: $veryDarkCyan;
 }

@@ -1,6 +1,23 @@
 @import "./main";
 @import "./variables";
 
-body {
-   background: $darkCyan;
+// Flex
+
+.flex {
+   display: flex;
+   &-f-d {
+      flex-direction: column;
+   }
+}
+
+// Button
+
+button {
+   font: inherit;
+   background: transparent;
+   border: 2px solid $transparentWhite;
+   background: #fff;
+   cursor: pointer;
+   padding: 1.125rem 2.125rem;
+   font-weight: 400;
 }
