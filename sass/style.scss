@@ -22,3 +22,18 @@ button {
    font-weight: 400;
    border-radius: 22px;
 }
+
+button:hover {
+   background: transparent;
+   color: #fff;
+}
+
+// MEDIA QUERY
+
+@media (min-width: 922px) {
+   .wrapper {
+      max-width: 920px;
+      margin: 0 auto;
+      flex-direction: row;
+   }
+}
