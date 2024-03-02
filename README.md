@@ -6,7 +6,7 @@
 
 ### Links
 
-- Solution URL: [Soluti](https://colum-preview-lovat.vercel.app/)
+- Solution URL: [SolutionURL](https://www.frontendmentor.io/solutions/responsive-column-preview-component-gmbsZwUSTw)
 - Live Site URL: [LiveSiteURL](https://colum-preview-lovat.vercel.app/)
 
 ## My process
