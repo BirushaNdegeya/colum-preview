@@ -52,4 +52,4 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 - Website - [Birusha Ndegeya](https://myportfolio-chi-mocha.vercel.app/)
 - Frontend Mentor - [@birushandegeya](https://www.frontendmentor.io/profile/BirushaNdegeya)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Twitter - [@BirushaNdegeya](https://www.twitter.com/BirushaNdegeya)
