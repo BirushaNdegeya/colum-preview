@@ -1,22 +1,12 @@
 @import "./main";
 @import "./variables";
 
-// Flex
-
-.flex {
-   display: flex;
-   &-f-d {
-      flex-direction: column;
-   }
-}
-
 // Button
 
 button {
    font: inherit;
-   background: transparent;
    border: 2px solid $transparentWhite;
-   background: #fff;
+   background: $transparentWhite;
    cursor: pointer;
    padding: 1.125rem 2.125rem;
    font-weight: 400;
@@ -25,12 +15,18 @@ button {
 
 button:hover {
    background: transparent;
-   color: #fff;
+   color: $transparentWhite;
 }
 
 // MEDIA QUERY
 
 @media (min-width: 922px) {
+   body {
+      display: flex;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+   }
    .wrapper {
       max-width: 920px;
       margin: 0 auto;
